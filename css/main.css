@@ -1,0 +1,116 @@
+/* Reset de margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d9d9d9;
+    font-family: "Inter Regular", sans-serif;
+}
+
+#nav {
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 5%;
+    position: relative; /* Removido o z-index duplicado */
+}
+
+#store, #acc, #leaf {
+    width: 5%;
+    height: auto;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#acc {
+    width: 38px;
+    height: 38px;
+    right: 39px;
+    margin-top: -1.5px;
+}
+
+#store {
+    width: 38px;
+    height: 38px;
+    right: 68px;
+    margin-top: -1.5px;
+}
+
+#leaf {
+    width: 44px;
+    height: 44px;
+}
+
+#nav a {
+    color: #010101;
+    font-size: 1.3vw; /* Alterado para viewport width (vw) para melhor adaptação */
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 3vw;
+}
+
+#nav .nav {
+    margin-right: 2vw; /* Alterado para viewport width (vw) para melhor adaptação */
+}
+
+#nav #leaf {
+    margin-right: 1vw; /* Alterado para viewport width (vw) para melhor adaptação */
+}
+
+hr {
+    width: calc(100% - 71px);
+    text-align: center;
+    margin: 0;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+.ppit {
+    display: inline-block;
+    margin-top: 4.5%;
+}
+
+.ppimg, .pptext {
+    display: block;
+}
+
+.ppimg img {
+    width: 35%;
+    float: right;
+    margin-left: -7%;
+}
+
+.pptext {
+    width: 40%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 12.5%;
+}
+
+.pptext p {
+    font-size: 2vw; /* Alterado para viewport width (vw) para melhor adaptação */
+}
+
+.pptext button {
+    text-decoration: none;
+    color: #044703;
+    background-color: #8BB96D;
+    border-radius: 10px;
+    padding: 8px 8px;
+    border: none;
+}
+
+.box input {
+    background: #ffff;
+    display: block;
+    text-align: center;
+    border: 3px solid green;
+    padding: 14px 10px;
+    width: 60%;
+    color: black;
+    border-radius: 10px;
+    margin: 20px auto;
+}
