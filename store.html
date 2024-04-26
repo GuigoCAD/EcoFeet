@@ -1,11 +1,202 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>EcoFeet</title>
-        <link rel="icon" type="png/icon" href="img/recycling.png">
-        <script src = "script/main.js"></script>
-        <link type="style/css" rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-    </body>
-</html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecofeet</title>
+    <link rel="stylesheet" href="assets/css/store.css">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <img class="icon" id="leaf" src="assets/img/leaf 2.png" alt="Icone da barra de navegação">
+            <div class="acess" id="acess">
+                <a class="nav" href="index.html" >Home</a>
+                <a class="nav" href="news.html">Notícias</a>
+                <a class="nav" href="rank.html">Rank</a>
+            </div>
+            <a id="acc"href="login.html"><img  id="acc" src="assets/img/account.png" alt="icon acconut"></a>
+            <a id="store" href="store.html"><img id="store" src="assets/img/store.png" alt="store icon"></a>
+            <hr class="linha">
+        </nav>
+        </header>
+    <div class="filter-container">
+        <div class="filter">
+            <label><input type="radio" name="categoria" value="Todas">Todas as categorias</label><br>
+            <label><input type="radio" name="categoria" value="Alimentos">Alimentos</label><br>
+            <label><input type="radio" name="categoria" value="Eletronicos">Eletrônicos</label><br>
+            <label><input type="radio" name="categoria" value="Higiene">Higiene</label><br>
+            <label><input type="radio" name="categoria" value="Presentes">Presentes</label><br>
+            <label><input type="radio" name="categoria" value="Vestimentas">Vestimentas</label><br>
+        </div>
+    </div>
+    <div class="container">
+        <div class="products" id="products">
+            <div id="Desodorante" class="Higiene">  
+            <h3>Desodorante</h3>
+            <img src="\assets\img\img\rexona.png" alt="" class="img">
+                <p>Custo: 60 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Higiene</p>
+            </div>
+            <div id="Sabonete" class="Higiene">
+                <h3>Sabonete</h3>
+                <img src="./assets/img/img/sabonete.jpg" alt="" class="img">
+                <p>Custo: 150 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Higiene</p>
+            </div>
+            <div id="Papel-higienico" class="Higiene">
+                <h3>Papel higienico</h3>
+                <img src="./assets/img/img/higienico.jpg" alt="" class="img">
+                <p>Custo: 100 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Higiene</p>
+            </div>
+            <div id="Perfume" class="Higiene">
+                <h3>Perfume</h3>
+                <img src="./assets/img/img/lile.jpg" alt="" class="img">
+                <p>Custo: 820 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Higiene</p>
+            </div>
+            <div id="Mouse" class="Eletronicos">
+                <h3>Mouse</h3>
+                <img src="./assets/img/img/mouse.jpg" alt="" class="mouse">
+                <p>Custo: 650 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Eletrônicos</p>
+            </div>
+            <div id="Jbl" class="Eletronicos">
+                <h3>Caixa de som JBL</h3>
+                <img src="./assets/img/img/jbl.jpg" alt="" class="jbl">
+                <p>Custo: 1248 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Eletrônicos</p>
+            </div>
+            <div id="fone"class="Eletronicos">
+                <h3>Fone com fio</h3>
+                <img src="./assets/img/img/buds.jfif" alt="" class="fone">
+                <p>Custo: 574 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Eletrônicos</p>
+            </div>
+            <div id="Camisa" class="Vestimentas">
+                <h3>Camisa</h3>
+                <img src="./assets/img/img/image-removebg-preview.png" alt="" class="camisa">
+                <p>Custo: 332 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Vestimentas</p>
+            </div>
+            <div id="Calça" class="Vestimentas">
+                <h3>Calça</h3>
+                <img src="./assets/img/img/calЗa.jfif" alt="Calça" class="img">
+                <p>Custo: 635 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Vestimentas</p>
+            </div>
+            <div id="meia" class="Vestimentas">
+                <h3>Meia</h3>
+                <img src="./assets/img/img/meias.jfif" alt="Meias" class="img">
+                <p>Custo: 172 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Vestimentas</p>
+            </div>
+            <div id="Bolsa" class="Vestimentas">
+                <h3>Bolsa</h3>
+                <img src="./assets/img/img/bolsa.jpg" alt="Bolsa" class="img">
+                <p>Custo: 567 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Vestimentas</p>
+            </div>
+            <div id="Doce" class="Alimentos" >
+                <h3>Balas Fini</h3>
+                <img src="./assets/img/img/fini.jpg" alt="Fini" class="img">
+                <p>Custo: 314 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Alimentos</p>
+            </div>
+            <div id="Chiclete" class="Alimentos">
+                <h3>Chicletes Trident</h3>
+                <img src="./assets/img/img/ciclete.jpg" alt="Chiclete" class="chiclete">
+                <p>Custo: 195 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Alimentos</p>
+            </div>
+            <div id="Chocolate" class="Alimentos">
+                <h3>Caixa de chocolates</h3>
+                <img src="./assets/img/img/ferrero.jfif" alt="Chocolate" class="Chocolate">
+                <p>Custo: 394 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Alimentos</p>
+            </div>
+            <div id="lol" class="Presentes">
+                <h3>Gift Card R$50 Lol</h3>
+                <img src="./assets/img/img/lol.jpg" alt="League of Legends" class="img">
+                <p>Custo: 250 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Presentes</p>
+            </div>
+            <div id="spotify" class="Presentes">
+                <h3>Gift Card R$50 Spotify</h3>
+                <img src="./assets/img/img/spotify.jpg" alt="Spotify" class="sptf">
+                <p>Custo: 250 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Presentes</p>
+            </div>
+            <div id="playstore" class="Presentes">
+                <h3>Gift Card R$50 PlayStore</h3>
+                <img src="./assets/img/img/gifit card.jpg" alt="PlayStore" class="img">
+                <p>Custo: 250 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Presentes</p>
+            </div>
+            <div id="steam" class="Presentes">
+                <h3>Gift Card R$50 Steam</h3>
+                <img src="./assets/img/img/steam.jfif" alt="Steam" class="img">
+                <p>Custo: 250 pontos</p>
+                <p>Origem: Brasil</p>
+                <p>Categoria: Presentes</p>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer">
+    <div class="mds">
+        <p>Idioma: Português</p>
+    </div>
+    <p id="ecft" style="text-align: center;">EcoFeet©</p>
+</footer>
+    <script>
+       
+        const radioInputs = document.querySelectorAll('input[type="radio"][name="categoria"]')
+const allDivs = document.querySelectorAll('.products > div');
+
+function handleChange(event) {
+if (event.target.checked) {
+    const selectedCategoria = event.target.value;
+    filtrar(selectedCategoria);
+}}
+radioInputs.forEach(function(radioInput) {
+radioInput.addEventListener('click', handleChange);
+});
+
+function filtrar(valorClicado){
+    allDivs.forEach(div => {
+        if (valorClicado == 'Todas'){
+            div.classList.remove('esconder')
+        }
+        else if (!div.classList.contains(valorClicado)) {
+        div.classList.remove(valorClicado)
+        div.classList.add('esconder')
+        }  
+        else {
+            div.classList.add(valorClicado)
+            div.classList.remove('esconder')
+        }
+    })
+};
+    </script>
+   
+</body>
+</html> 
