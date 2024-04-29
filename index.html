@@ -9,72 +9,71 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <header>
-        <nav id="nav">
-            <img class="icon" id="leaf" src="assets/img/leaf 2.png" alt="Icone da barra de navegação">
-            <div class="acess" id="acess">
-                <a class="nav" href="index.html" >Home</a>
-                <a class="nav" href="news.html">Notícias</a>
-                <a class="nav" href="rank.html">Rank</a>
-            </div>
-            <a id="acc" href="login.html"><img  id="acc" src="assets/img/account.png" alt="icon acconut"></a>
-            <a id="store" href="store.html"><img id="store" src="assets/img/store.png" alt="store icon"></a>
-            <hr class="linha">
-        </nav>
+        <header id="header" class="header">
+            <img src="assets/img/logo(1).png" alt="Logo ecofeet">
+            <a href="index.html">EcoFeet</a>
+            <nav>
+                <a href="rank.html">Rank</a>
+                <a href="store.html">Loja</a>
+                <a href="login.html">Login</a>
+            </nav>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="rank.html">Rank</a>
+                  <a href="store.html">Loja</a>
+                  <a href="login.html">Login</a>
+                </div>
+              </div>
         </header>
-        <div class="ppit" id="001">
-            <div class="pptext" id="pptext">
-                <center>
-                <p>Troque resíduos por Ecopontos e ganhe itens</p>
-                <form class="box" method="post" id="loginForm">
-                    <input type="text" placeholder="Procure seu produto" id="srcprod">
-                    <div></div>
-                </form>
-                    <a href="peg.html"><button>Clique aqui para <br> receber Ecopontos</button></a>
-                </center>
+        <section class="slider">
+            <div class="carrossel">
+                <img src="assets/img/FAça diferente.png" alt="">
             </div>
-            <!--<div class="ppimg" id="ppimg">
-                <img src="assets/img/ecofeet.png" alt="Desenho de uma pessoa reciclando no estilo minimalista"   >
-            </div>-->
-        </div>
-        <div class="itmc" id="itmc">
-            <p>Itens mais comprados</p>
-            <img src="assets/img/coroa.png" alt="simbolo de coroa para retratar os itens mais comprados">    
-        </div>
-        <div class="bgit">
-            <div class="item01">
-                <center>
-                <img src="assets/img/img/mouse.jpg" alt="">
-            
-                <p>Mouse<br> Ecp: 650 <br>200 vendas</p>
-
-                </center>
+        <div class="pp">
+            <p id="pp">Principais produtos</p>
+            <div class="prods">
+                <div class="prod1">
+                    <img src="assets/img/mouse(1).png" alt="Mouse">
+                </div>
+                <div class="prod2">
+                    <img src="assets/img/roblox.png" alt="">
+                </div>
+                <div class="prod3">
+                    <img src="assets/img/samsung.png" alt="">
+                </div>
+                <div class="prod4">
+                    <img src="assets/img/camisa.png" alt="">
+                </div>
+                <div class="prod5">
+                    <img src="assets/img/buxa.png" alt="">
+                </div>
             </div>
-            <div class="item02">
-                <center>
-                    <img src="assets/img/img/jbl.jpg" alt="JBL">
-                </center>
-                <p>Caixa de som JBL <br>Ecp:1248 <br>100 Vendas </p>
+        <div class="bomge">
+            <div class="cyt1">
+                    <img src="assets/img/Garanta já seu kit EcoTrash.png" alt="anuncio do kit EcoTrash">
             </div>
-            <div class="item03">
-                <center>
-                    <img src="assets/img/Untitled.jpeg" alt="">
-                </center>
-                <p>Cadeira Reciclavel <br> Ecp: 20 <br> 400.000 vendas</p>
-            </div>
-            <div class="item04">
-                <center>
-                    <img src="assets/img/img/spotify.jpg" alt="">
-                </center>
-                <p>GiftCard do Spotify premium <br>Ecp:312 <br>200 Vendas </p>
+            <div class="cyt2">
+                <div class="titlecyt2"><p>Principais noticias</p></div>
+                <div class="news1" id="news1">
+                    <a href="https://g1.globo.com/meio-ambiente/noticia/2024/04/28/calor-previsao-tempo-maximas-e-minimas-proximos-dias.ghtml" target="_blank">
+                        <p>Onda de calor mantém temperaturas em alta na maior parte do país</p>
+                    </a>
+                </div>
+                <div class="news2">
+                    <a href="https://g1.globo.com/meio-ambiente/noticia/2023/04/18/mancha-de-lixo-do-pacifico-vira-ecossistema-inesperado-com-reproducao-de-especies-costeiras-em-alto-mar.ghtml" target="_blank">
+                        <p>Mancha de Lixo do Pacífico vira ecossistema inesperado com reprodução de espécies costeiras em alto mar</p>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="te"></div>
-        <footer id="footer">
-            <div class="mds">
-                <p>Idioma: Português</p>
+        <footer>
+            <div class="left">
+                <p>Av. Luís Viana Filho,Paralela, Salvador</p>
+                <a href="tel:+5517983512643">(71)98351-2643</a>
             </div>
-                <p id="ecft" style="text-align: center;">EcoFeet©</p>
+            <div class="center"><p id="ecft" style="text-align: center;">EcoFeet©</p></div>
+            <div class="right"><p>Idioma: Português</p></div>
         </footer>
     </body>
 </html>
